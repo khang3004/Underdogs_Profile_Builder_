@@ -1,0 +1,16 @@
+% =============================================================================
+% PREAMBLE CONFIGURATION
+% Purpose: Loads core styles, external macros, and essential LaTeX packages.
+% =============================================================================
+
+% 1. Load the customized CV style package
+\usepackage{settings/cv_style}
+
+% 2. Packages for precise layout control
+\usepackage{enumitem} % Allows fine-tuning of list environments
+
+% Configure list spacing for a denser, more professional executive look
+\setlist[itemize]{nosep, leftmargin=1.5em, before=\vspace{0.15cm}, after=\vspace{0.15cm}}
+
+% 3. Load custom commands and macros
+\input{settings/custom_commands.tex}

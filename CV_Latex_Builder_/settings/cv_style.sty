@@ -1,0 +1,35 @@
+\ProvidesPackage{cv_style}
+% =============================================================================
+% CV STYLE DEFINITION
+% Purpose: Defines the visual identity, typography, and color scheme of the CV.
+% =============================================================================
+
+% ModernCV theme settings
+\moderncvstyle{banking}
+
+% Colors: Transitioning to a highly professional, masculine, and authoritative palette.
+\RequirePackage{xcolor}
+\definecolor{color1}{HTML}{004D98} % Primary color: Deep Navy Blue (Authority, Trust, Focus)
+\definecolor{color2}{HTML}{2D3748} % Secondary color: Deep Slate/Charcoal (Readability, Sleekness)
+\definecolor{techbg}{HTML}{F1F5F9} % Light slate background for tech stack tags
+
+% Font and Encoding
+\RequirePackage[utf8]{inputenc}
+\RequirePackage[T1]{fontenc}
+\RequirePackage{microtype} % Enhances typographical perfection (kerning, spacing, and alignment)
+
+% Page Geometry (Optimized for maximum content without looking cluttered)
+\RequirePackage[scale=0.9, top=1.2cm, bottom=1.2cm, left=1.5cm, right=1.5cm]{geometry}
+
+% Icons
+\RequirePackage{fontawesome5}
+
+% Hyperlinks configuration
+\RequirePackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=color1,
+    urlcolor=color1,
+    pdftitle={Hoang Khang Nguyen - Senior AI Engineer CV},
+    pdfauthor={Hoang Khang Nguyen}
+}

@@ -1,0 +1,22 @@
+% =============================================================================
+% CUSTOM COMMANDS & MACROS
+% Purpose: Reusable functions to maintain consistency and keep the main file clean.
+% =============================================================================
+
+% Macro: \keyword
+% Description: Highlights a specific keyword using the primary color.
+% Arguments:
+%   #1 (string): The text to be highlighted.
+\providecommand{\keyword}[1]{\textbf{\textcolor{color1}{#1}}}
+
+% Macro: \metric
+% Description: Emphasizes a quantitative result or impact metric (e.g., "75%", "sub-2s").
+% Arguments:
+%   #1 (string): The number or metric to highlight.
+\providecommand{\metric}[1]{\textbf{\textcolor{color1}{#1}}}
+
+% Macro: \techtag
+% Description: Formats a technology name like a modern UI badge/tag.
+% Arguments:
+%   #1 (string): The technology name (e.g., "Docker", "LangGraph").
+\providecommand{\techtag}[1]{\colorbox{techbg}{\textcolor{color2}{\small\textbf{\ #1\ }}}}
